@@ -74,6 +74,14 @@ export default function App() {
         >
           {" "}
           Maitra Khatri
+        </a>{" "}
+        <br /> <br />
+        <a
+          href="https://github.com/maitrakhatri/Pixel-Visualizer"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Souce Code ↗️
         </a>
       </h3>
       <div className="buttons">
