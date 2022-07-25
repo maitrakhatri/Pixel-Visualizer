@@ -1,0 +1,121 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pixel {
+  width: 10rem;
+  height: 10rem;
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  outline: 1px solid black;
+}
+
+input {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #333333;
+  width: 3rem;
+  height: 2rem;
+  color: #333333;
+  font-size: 1rem;
+}
+
+.userInput {
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  width: fit-content;
+  margin: 2rem 0 2rem 0;
+}
+
+.none {
+  outline: none;
+}
+
+@media only screen and (max-width: 700px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+/* @media only screen and (max-width: 350px) {
+  html {
+    font-size: 6px;
+  }
+} */
+
+.matrix > * {
+  display: flex;
+  flex-direction: column;
+}
+
+.red,
+.green,
+.blue {
+  margin: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* img {
+  width: 30rem;
+}
+
+.example {
+  margin-top: 3rem;
+  display: flex;
+  gap: 2rem;
+} */
+
+.hide {
+  display: none;
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+button {
+  padding: 1rem 2rem;
+  border: none;
+  outline: 1.5px solid crimson;
+  background-color: transparent;
+  color: crimson;
+  margin: 1rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: crimson;
+  color: white;
+}
