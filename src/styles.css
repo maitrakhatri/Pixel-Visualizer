@@ -29,13 +29,6 @@ input {
   font-size: 1rem;
 }
 
-.userInput {
-  margin: 2rem;
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-}
-
 main {
   display: grid;
   grid-template-columns: repeat(3, auto);
@@ -66,12 +59,6 @@ main {
   }
 }
 
-/* @media only screen and (max-width: 350px) {
-  html {
-    font-size: 6px;
-  }
-} */
-
 .matrix > * {
   display: flex;
   flex-direction: column;
@@ -83,16 +70,6 @@ main {
   margin: 1rem;
   margin-bottom: 2rem;
 }
-
-/* img {
-  width: 30rem;
-}
-
-.example {
-  margin-top: 3rem;
-  display: flex;
-  gap: 2rem;
-} */
 
 .hide {
   display: none;
@@ -118,4 +95,8 @@ button:hover {
   cursor: pointer;
   background-color: crimson;
   color: white;
+}
+
+a {
+  color: crimson;
 }
